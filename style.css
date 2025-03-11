@@ -112,6 +112,7 @@ body {
 
 /* aforizm */
 .aforizm1 {
+  border-radius: 5px;
   background-color: #1e4681;
   width: 32vw;
   border-radius: 5px;
@@ -274,6 +275,7 @@ body {
     margin-top: 24px;
     margin-left: 1vw;
     font-weight: 300;
+    border-radius: 5px;
   }
 
   .aforizm-content1 h3 {
@@ -404,6 +406,7 @@ body {
     padding: 20px 19px 20px 22px;
     border-radius: 2px;
     width: 36vw;
+    border-radius: 5px;
     text-align: left;
     font-weight: 300;
   }
