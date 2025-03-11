@@ -93,6 +93,7 @@ body {
   font-size: 6.25vw;
   line-height: 6vw;
 }
+
 .banner-text-p {
   font-size: 1.575vw;
   font-weight: 400;
@@ -107,6 +108,7 @@ body {
   margin-left: 137px;
   margin-top: 25px;
 }
+
 /* aforizm */
 .aforizm1 {
   background-color: #1e4681;
@@ -129,6 +131,7 @@ body {
   text-align: right;
   line-height: 130%;
 }
+
 /* ================== */
 
 .about-course1 {
@@ -137,33 +140,40 @@ body {
   align-items: center;
   width: 80%;
 }
+
 .title1 {
   font-size: 3.6vw;
   font-weight: 700;
   margin-bottom: 20px;
 }
+
 .ph-one {
   font-size: 1.6vw;
   line-height: 1.6;
   width: 44.5vw;
 }
+
 .img1 {
   width: 24vw;
   margin-right: 45px;
   margin-top: 70px;
 }
+
 .hours1 {
   display: flex;
   gap: 6.5vw;
   width: 80%;
   margin-top: 60px;
 }
+
 .hours1 img {
   width: 16vw;
 }
+
 .duration1 {
   margin-top: 44px;
 }
+
 .duration1 h2 {
   font-size: 1.8vw;
   font-family: "Roboto", sans-serif;
@@ -174,10 +184,12 @@ body {
   margin-top: 5px;
   font-family: "Roboto", sans-serif;
 }
+
 .duration-container1 {
   display: flex;
   gap: 4vw;
 }
+
 .duration1 {
   white-space: pre-line;
 }
@@ -261,6 +273,7 @@ body {
     margin-left: 1vw;
     font-weight: 300;
   }
+
   .aforizm-content1 h3 {
     font-size: 2.82vw;
     line-height: 1.5;
@@ -278,48 +291,58 @@ body {
   .about-course1 {
     flex-direction: column;
   }
+
   .about-course1 h2 {
     font-size: 7.1vw;
     margin-bottom: 17px;
     margin-top: 80px;
   }
+
   .ph-one {
     font-size: 3vw;
     line-height: 1.6;
     width: 83vw;
   }
+
   .img1 {
     width: 47vw;
     margin-left: 19vw;
     margin-top: 15px;
   }
+
   .hours1 {
     display: flex;
     flex-wrap: wrap;
     margin-top: 60px;
     gap: 9.5vw;
   }
+
   .hours1 img {
     display: none;
   }
+
   .duration-container1 {
     display: flex;
     flex-wrap: wrap;
     width: 80%;
     gap: 6vw;
   }
+
   .duration1 h2 {
     font-size: 3.8vw;
     font-weight: 600;
     font-family: "Roboto", sans-serif;
     text-align: left;
   }
+
   .duration1 {
     height: auto;
   }
+
   .duration-extra {
     margin: 0;
   }
+
   .duration1 p {
     font-size: 2.5vw;
     margin-top: 8px;
@@ -384,19 +407,19 @@ body {
   }
 
   .aforizm-content1 h3 {
-        font-size: 1.9vw;
-        line-height: 1.2;
-		width: 90%;
-}
+    font-size: 1.9vw;
+    line-height: 1.2;
+    width: 90%;
+  }
 
   .aforizm-author p {
-        margin-top: 13px;
-        margin-left: 5px;
-        font-size: 1.5vw;
-        text-align: right;
-        color: white;
-        font-family: "Roboto", sans-serif;
-    
+    margin-top: 13px;
+    margin-left: 5px;
+    font-size: 1.5vw;
+    text-align: right;
+    color: white;
+    font-family: "Roboto", sans-serif;
+
   }
 
   /* about-course */
@@ -404,24 +427,29 @@ body {
     display: flex;
     gap: 100px;
   }
+
   .about-course1 h2 {
     font-size: 3.7vw;
     margin-bottom: 31px;
   }
+
   .ph-one {
     font-size: 1.6vw;
     line-height: 1.6;
     width: 44vw;
     font-family: "Roboto", sans-serif;
   }
+
   .img1 {
     width: 24.5vw;
     margin-right: 55px;
     margin-top: 95px;
   }
+
   .duration-container1 {
     gap: 4vw;
   }
+
   .hours1 {
     display: flex;
     gap: 6.5vw;
@@ -432,6 +460,7 @@ body {
   .hours1 img {
     width: 16vw;
   }
+
   .duration1 h3 {
     font-size: 1.8vw;
     font-family: "Roboto", sans-serif;
