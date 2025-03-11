@@ -264,6 +264,9 @@ body {
   .banner-text1 {
     width: 100%;
   }
+  .second-section-2{
+    width: 90%;
+  }
 
   .aforizm1 {
     background: #1e4681;
@@ -479,6 +482,12 @@ body {
 /* <<<<<<< elnare */
 
 @media screen and (min-width: 1280px){
+  .second-section-2{
+    width: 90%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
     .container2 {
     display: flex;
     gap: 50px;
@@ -534,11 +543,18 @@ body {
     .second2{
         width: 80%;
     }
+  
     }
     @media screen and (min-width: 992px) and (max-width: 1279px) { 
         .container2 {
             display: flex;
             gap: 50px;
+            }
+            .second-section-2{
+              width: 90%;
+              display: flex;
+              justify-content: center;
+              align-items: center;
             }
             .head2 {
                 margin-top: 110px;
@@ -600,6 +616,12 @@ body {
                 text-align: left;
                 font-family: 'Roboto Slab', serif !important;
         }
+        .second-section-2{
+          width: 90%;
+          display: flex;
+          justify-content: center;
+          align-items: center;
+        }
             .element2 {
             width: 43vw;
             font-size: 2.5vw;
@@ -654,12 +676,11 @@ body {
 }
 /*my-part-3-------------------------------------*/
 .main-3{
-    font-family: roboto ;
-    min-width: 1280px;
+    font-family: "roboto ",sans-serif ;
 }
 .main-3 h1{
-    font-family: roboto slab;
-    font-size: 55px;
+    font-family: "roboto slab" ,sans-serif;
+      font-size: 55px;
 }
 .main-3 h3{
     font-size: 30px;
