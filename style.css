@@ -691,31 +691,29 @@ body {
     }
 /* ======= */
 /* <<<<<<< feridk */
-*{
-    margin: 0;padding: 0;
-    box-sizing: border-box;
-}
+
 /*my-part-3-------------------------------------*/
 .main-3{
-    font-family: "roboto ",sans-serif ;
+    font-family: roboto ;
+    width: 100%;
 }
 .main-3 h1{
-    font-family: "roboto slab" ,sans-serif;
-      font-size: 55px;
+    font-family: roboto slab;
+    font-size: 3.6vw;
 }
 .main-3 h3{
-    font-size: 30px;
+    font-size: 2.16vw;
 }
 /*cards----------------------------------------*/
 .section-3-cards h1 {
-    margin-bottom: 100px;
+    margin-bottom: 8vw;
     padding-left: 9%;
 }
 .cards-3{
     width: 100%;
     display: grid;
     grid-template-columns: repeat(3,27.7%);
-    grid-template-rows: repeat(3,328px);
+    grid-template-rows: repeat(3,23vw);
     gap: 2.5em;
     justify-content: center;
 
@@ -731,56 +729,57 @@ body {
 .card-3-article{
     display: flex;
     flex-direction: column;
-    padding-left:  20px;
-    padding-bottom: 20px;
+    padding-left:  2vw;
+    padding-bottom: 2vw;
     justify-content: space-around;
-    height: calc(100% - 160px);
+    height: calc(100% - 11vw);
 }
 
 .card-3-article p{
-    font-size: 25px;
+    font-size: 1.8vw;
 }
 
 /*big-card--------------------------------------*/
 .section-3-big-card{
-    margin-top: 120px;
-    padding: 100px 0 100px 9%;
+    margin-top: 10vw;
+    padding: 8vw 0 8vw 9%;
     background-color: #efefef;
     display: flex;
     flex-direction: column;
 }
 .big-card-3{
     background-color: white;
-    margin-top: 60px;
-    padding: 50px;
+    margin-top: 5vw;
+    padding: 3.8vw;
     display: flex;
     flex-direction: column;
-    gap: 50px;
-    width: 55%;
-    height: 450px;
+    gap: 3.8vw;
+    width: 58%;
+    height: 32vw;
     border-radius: 30px;
     box-shadow: 0 0 0.7em 0.5em rgba(0, 0, 0, 0.15);
 }
 .big-card-3 p{
-    font-size: 20px;
+    font-size: 1.4vw;
 }
 .big-card-3-item{
     display: flex;
-    gap: 50px;
+    gap: 3.8vw;
     align-items: center;
-    margin-left: -20px;
+    margin-left: -1.4vw;
     
+}
+.big-card-3-item img{
+    width: 13vw;
 }
 .name-and-logo-3 h3{
     font-family: roboto slab;
-    margin-bottom: 30px;
+    margin-bottom: 1.8vw;
 }
-/*tablet*/
-@media screen and (min-width:992px) and (max-width:1279px){
-    .big-card-3{
-        width: 65%;
-    }
+.name-and-logo-3 img{
+    width: 2vw;
 }
+
 /*mobile*/
 @media screen and (min-width:320px) and (max-width:991px){ 
     .cards-3{
@@ -788,8 +787,8 @@ body {
         display: flex;
         flex-direction: column;
         align-items: center;
-        gap: 6em;
-        margin-top: 200px;
+        gap: 10vw;
+        margin-top: 15vw;
     } 
     .card-3-item{
         width: 50%;
@@ -801,29 +800,30 @@ body {
     .card-3-article{
         display: flex;
         flex-direction: column;
-        height: 250px;
-        padding-left: 40px;
+        height: 20vw;
+        padding-left: 4vw;
        
     }
     .main-3 h1{
-        font-size: 90px;
+        font-size: 7.2vw;
+        
     }
     .main-3 h3{
-        font-size: 50px;
+        font-size: 3.8vw;
     }
     .card-3-article p{
-        font-size: 40px;
+        font-size: 3.2vw;
     }
-    .section-3-big-card h1{
-        width: 80%;
+    .section-3-cards h1 {
+        padding-left: 9%;
     }
     .big-card-3{
         width: 90%;
-        height: 760px;
+        height: 65vw;
         padding: 7%;
     }
     .big-card-3 p{
-        font-size: 35px;
+        font-size: 3vw;
     }
     .section-3-big-card img{
         width: 30%;
@@ -832,7 +832,7 @@ body {
         width: 10%;
     }
 
-} 
+}
 
 
 /* ======= */
