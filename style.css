@@ -68,7 +68,6 @@ body {
   display: flex;
   align-items: center;
   justify-content: center;
-  gap: 8px;
 }
 
 .calendar div p {
@@ -625,6 +624,12 @@ body {
                 font-weight: 700;
                 text-align: left;
                 font-family: 'Roboto Slab', serif !important;
+        }
+        .container2{
+          padding: 30px 0px;
+          display: flex;
+          flex-direction: column;
+          gap: 60px;
         }
         .second-section-1{
           width: 80%;
